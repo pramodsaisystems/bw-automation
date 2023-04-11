@@ -1,0 +1,874 @@
+{
+	"id": "f84af001-294e-420d-86aa-4f359f72dc10",
+	"name": "BW-CMS API Latest",
+	"timestamp": "2023-03-10T09:42:28.085Z",
+	"collection_id": "17984540-848dcb55-e400-4daf-a349-07dc88b0f156",
+	"folder_id": 0,
+	"environment_id": "17984540-20211709-5ce6-4880-8608-ef2096c5d0b0",
+	"totalPass": 55,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-10T09:42:16.692Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7649e214-d069-441c-9721-b8c9f1325322",
+			"name": "main-header-navigation",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/menu?name=main-header-navigation",
+			"time": 1254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check menus News,Services,Blog,Resources,Contact": true,
+				"Verify News URL": true,
+				"Verify Services URL": true,
+				"Verify Blog URL": true,
+				"Verify Resources URL": true,
+				"Verify Contact URL": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check menus News,Services,Blog,Resources,Contact": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify News URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Services URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Blog URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Resources URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Contact URL": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1254
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check menus News,Services,Blog,Resources,Contact": true,
+					"Verify News URL": true,
+					"Verify Services URL": true,
+					"Verify Blog URL": true,
+					"Verify Resources URL": true,
+					"Verify Contact URL": true
+				}
+			]
+		},
+		{
+			"id": "e91eb1a6-6ba8-44c4-886e-ddb1f759a896",
+			"name": "footer-navigation",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/menu?name=footer-navigation&accept:application=json",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check menus are available 1.News 2.Services 3.Resources 4.Blog 5.All": true,
+				"Verify News URL": true,
+				"Verify Services URL": true,
+				"Verify Resources URL": true,
+				"Verify Blog URL": true,
+				"Verify All URL": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check menus are available 1.News 2.Services 3.Resources 4.Blog 5.All": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify News URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Services URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Resources URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Blog URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify All URL": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check menus are available 1.News 2.Services 3.Resources 4.Blog 5.All": true,
+					"Verify News URL": true,
+					"Verify Services URL": true,
+					"Verify Resources URL": true,
+					"Verify Blog URL": true,
+					"Verify All URL": true
+				}
+			]
+		},
+		{
+			"id": "3a247d78-5888-4a83-81b3-85a31a47f8b4",
+			"name": "footer-bottom-navigation",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/menu?name=footer-bottom-navigation",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check menu About us,Careers,Privacy Policy,Terms of Use,Sitemap ": true,
+				"Verify About Us URL": true,
+				"Verify Careers URL": true,
+				"Verify Privacy Policy URL": true,
+				"Verify Terms of Use URL": true,
+				"Verify Sitemap URL": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check menu About us,Careers,Privacy Policy,Terms of Use,Sitemap ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify About Us URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Careers URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Privacy Policy URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Terms of Use URL": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify Sitemap URL": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check menu About us,Careers,Privacy Policy,Terms of Use,Sitemap ": true,
+					"Verify About Us URL": true,
+					"Verify Careers URL": true,
+					"Verify Privacy Policy URL": true,
+					"Verify Terms of Use URL": true,
+					"Verify Sitemap URL": true
+				}
+			]
+		},
+		{
+			"id": "43f3613e-baea-422e-9727-cb82436e31a7",
+			"name": "About_us",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=about-us",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check about us": true,
+				"check author is": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check about us": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check author is": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check about us": true,
+					"check author is": true
+				}
+			]
+		},
+		{
+			"id": "78c7e468-a8aa-4d06-b293-8d3824d7d8c5",
+			"name": "Privacy Policy",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=privacy-policy",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check about us": true,
+				"check author is": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check about us": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check author is": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check about us": true,
+					"check author is": true
+				}
+			]
+		},
+		{
+			"id": "658b9e72-2c5e-4874-bb28-c37bc9015a57",
+			"name": "Home",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=home",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check about us": true,
+				"check author is": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check about us": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check author is": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check about us": true,
+					"check author is": true
+				}
+			]
+		},
+		{
+			"id": "b09be087-d0bd-4f2d-8963-ea557c655e11",
+			"name": "Global settings",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalsettings",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Header & Footer logo": true,
+				"Copyright text is: Business Wire Inc.": true,
+				"": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header & Footer logo": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Copyright text is: Business Wire Inc.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Header & Footer logo": true,
+					"Copyright text is: Business Wire Inc.": true,
+					"": true
+				}
+			]
+		},
+		{
+			"id": "0fdbd4bd-8aac-4a2c-8e8f-59f1e5e9350c",
+			"name": "Contact Us Banner API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/contact_us",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Contact us banner title": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Contact us banner title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				252
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Contact us banner title": true
+				}
+			]
+		},
+		{
+			"id": "ea7bfff1-ee48-4bf6-bbd8-618d0fde1042",
+			"name": "Sign Up For Demo API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/demo",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Demo banner title & description": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Demo banner title & description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Demo banner title & description": true
+				}
+			]
+		},
+		{
+			"id": "6f893926-74ea-462c-a1f1-f1520b64e981",
+			"name": "Newsletter Banner API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/newsletter",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Newsletter banner title & description": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Newsletter banner title & description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Newsletter banner title & description": true
+				}
+			]
+		},
+		{
+			"id": "cf5977e6-276b-456b-8742-490c29fcce20",
+			"name": "Right Banner API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/right",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Right banner icon & description": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Right banner icon & description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Right banner icon & description": true
+				}
+			]
+		},
+		{
+			"id": "d1afbf89-c381-4d90-b687-9dda68b39da2",
+			"name": "Sign Up Banner API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/sign_up",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Sign up banner title & description": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Sign up banner title & description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Sign up banner title & description": true
+				}
+			]
+		},
+		{
+			"id": "2649d53f-0c45-405e-9dd2-021b6ea90e24",
+			"name": "Who We Are Component API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/globalcomponent/who_we_are",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"Who we are banner title & description": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Who we are banner title & description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"Who we are banner title & description": true
+				}
+			]
+		},
+		{
+			"id": "4ff08b08-2d86-48d9-8446-6d4f67dc6c24",
+			"name": "Testimonials Component API",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/testimonials",
+			"time": 716,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				716
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		},
+		{
+			"id": "1bac89e6-40f6-4178-847b-e6c7d152f6ac",
+			"name": "Contact Us page",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page/contact",
+			"time": 1009,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1009
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		},
+		{
+			"id": "7f3ced65-6b9f-497b-b2b0-09af2f8e1c40",
+			"name": "Office Locations",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page/office-locations",
+			"time": 1016,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1016
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "376cc5db-a0d7-42a4-9a09-99d8a8a68755",
+			"name": "Service",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=service",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true,
+				"check about us": true,
+				"check author is": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check about us": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check author is": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true,
+					"check about us": true,
+					"check author is": true
+				}
+			]
+		},
+		{
+			"id": "15516915-920a-4c33-98dc-f5c760955ddc",
+			"name": "Public Relations",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=public-relations",
+			"time": 1249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1249
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		},
+		{
+			"id": "e52d3b2e-f448-4c56-94d1-b42388b92ba7",
+			"name": "Investor Relations",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=investor-relations",
+			"time": 597,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				597
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		},
+		{
+			"id": "c1d88add-b377-42f0-8b6c-6fe0c57ebc13",
+			"name": "Distribution Analytics",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=distribution-analytics",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		},
+		{
+			"id": "9cf21f87-db51-4d6b-8848-c5b9a4180ee4",
+			"name": "Media Journalist Tools",
+			"url": "https://businesswirdev.wpengine.com/wp-json/bwcms/page?name=media-journalist-tools",
+			"time": 244,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"expcted response code 200": true
+			},
+			"testPassFailCounts": {
+				"expcted response code 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				244
+			],
+			"allTests": [
+				{
+					"expcted response code 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9471,
+	"collection": {
+		"requests": [
+			{
+				"id": "7649e214-d069-441c-9721-b8c9f1325322",
+				"method": "GET"
+			},
+			{
+				"id": "e91eb1a6-6ba8-44c4-886e-ddb1f759a896",
+				"method": "GET"
+			},
+			{
+				"id": "3a247d78-5888-4a83-81b3-85a31a47f8b4",
+				"method": "GET"
+			},
+			{
+				"id": "43f3613e-baea-422e-9727-cb82436e31a7",
+				"method": "GET"
+			},
+			{
+				"id": "78c7e468-a8aa-4d06-b293-8d3824d7d8c5",
+				"method": "GET"
+			},
+			{
+				"id": "658b9e72-2c5e-4874-bb28-c37bc9015a57",
+				"method": "GET"
+			},
+			{
+				"id": "b09be087-d0bd-4f2d-8963-ea557c655e11",
+				"method": "GET"
+			},
+			{
+				"id": "0fdbd4bd-8aac-4a2c-8e8f-59f1e5e9350c",
+				"method": "GET"
+			},
+			{
+				"id": "ea7bfff1-ee48-4bf6-bbd8-618d0fde1042",
+				"method": "GET"
+			},
+			{
+				"id": "6f893926-74ea-462c-a1f1-f1520b64e981",
+				"method": "GET"
+			},
+			{
+				"id": "cf5977e6-276b-456b-8742-490c29fcce20",
+				"method": "GET"
+			},
+			{
+				"id": "d1afbf89-c381-4d90-b687-9dda68b39da2",
+				"method": "GET"
+			},
+			{
+				"id": "2649d53f-0c45-405e-9dd2-021b6ea90e24",
+				"method": "GET"
+			},
+			{
+				"id": "4ff08b08-2d86-48d9-8446-6d4f67dc6c24",
+				"method": "GET"
+			},
+			{
+				"id": "1bac89e6-40f6-4178-847b-e6c7d152f6ac",
+				"method": "GET"
+			},
+			{
+				"id": "7f3ced65-6b9f-497b-b2b0-09af2f8e1c40",
+				"method": "GET"
+			},
+			{
+				"id": "376cc5db-a0d7-42a4-9a09-99d8a8a68755",
+				"method": "GET"
+			},
+			{
+				"id": "15516915-920a-4c33-98dc-f5c760955ddc",
+				"method": "GET"
+			},
+			{
+				"id": "e52d3b2e-f448-4c56-94d1-b42388b92ba7",
+				"method": "GET"
+			},
+			{
+				"id": "c1d88add-b377-42f0-8b6c-6fe0c57ebc13",
+				"method": "GET"
+			},
+			{
+				"id": "9cf21f87-db51-4d6b-8848-c5b9a4180ee4",
+				"method": "GET"
+			}
+		]
+	}
+}
