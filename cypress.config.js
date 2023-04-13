@@ -13,7 +13,7 @@ module.exports = defineConfig({
       allureWriter(on, config);
       return config;
     },
-    baseUrl:"https://hc7abfv9fjaakyg28fdla4s0n.js.wpenginepowered.com/",
+    baseUrl:"https://localhost:3000/",
     apiBaseUrl:"https://businesswirdev.wpengine.com/",
     defaultCommandTimeout: 30000
   }
